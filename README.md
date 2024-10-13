@@ -72,6 +72,6 @@ npm run build
 npm run lint
 ```
 
-### View Wedsite
+### View of the Website
 
 <img src="\views_site\Connected_page.png" alt="Alt text" width="400"/>
