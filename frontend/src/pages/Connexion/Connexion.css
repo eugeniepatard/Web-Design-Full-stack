@@ -1,0 +1,64 @@
+#subscribe-here {
+  color: white;
+  font-size: 0.9rem;
+}
+.not-yet-sub {
+  margin: 0 5px;
+  font-size: 0.8rem;
+}
+
+.tosubscribe {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 0px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-connexion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*centrer verticalement*/
+  justify-content: center; /*centrer horizontalement*/
+  height: 100%;
+}
+
+.identifiant,
+.pwd {
+  background-color: rgb(55, 60, 72);
+  border: 0;
+  height: 30px;
+  width: 300px;
+  border-radius: 8px;
+  color: white;
+  padding: 15px;
+}
+.form-connection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.btn {
+  width: 50%;
+  border: 0;
+  height: 34px;
+  background-color: rgb(55, 60, 72);
+  color: white;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.connexion {
+  padding: 20px;
+  background-color: rgb(75, 82, 97);
+  box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.2);
+}
+
+#error {
+  margin-bottom: 20px;
+  color: rgb(248, 2, 2);
+  font-size: 1.2rem;
+}

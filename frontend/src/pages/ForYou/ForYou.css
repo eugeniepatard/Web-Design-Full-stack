@@ -1,0 +1,6 @@
+.foryou-page{
+    margin: 0 20px 10px 90px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    place-items: center;
+}

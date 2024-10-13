@@ -1,0 +1,15 @@
+/* .movie-top-tile {
+  width: 1920px;
+} */
+
+.top-5-poster {
+  width: 440px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.movie-tile-popup{
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}

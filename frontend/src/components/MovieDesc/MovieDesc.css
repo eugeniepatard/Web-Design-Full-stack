@@ -1,0 +1,275 @@
+.movie-title {
+  color: white;
+  font-weight: bold;
+  font-family: 'Candara';
+
+  font-size: 30px;
+}
+
+.release_date {
+  color: white;
+  font-family: 'Arial';
+  font-size: 30px;
+}
+
+.length {
+  color: white;
+  font-family: 'Arial';
+  font-size: 13px;
+}
+
+.container-second {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.movie-image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.movie-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.release_date {
+  color: white;
+  font-size: 12px;
+}
+
+.length {
+  color: white;
+}
+
+.Note {
+  width: 50%;
+}
+
+.noteinput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-third {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 3fr;
+  transform: translateX(-5px);
+  padding: 30px 0;
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.champ-note {
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Arial';
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filminfo {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+}
+
+.genre {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'Arial';
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.genrestring {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Arial';
+  font-size: 15px;
+}
+
+.noteinput {
+  background-color: rgb(70, 67, 67);
+  border-radius: 10px;
+  border: 1px solid rgb(179, 179, 179);
+  padding: 8px;
+}
+
+.form-note {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-check {
+  width: 20px;
+  height: 20px;
+  margin: 7px;
+  margin-left: 9px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0;
+  transform: translateY(9px);
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translateX(-20px);
+  transform: translateY(-10px);
+}
+
+.actorsname {
+  display: flex;
+  flex-direction: row;
+  font-weight: none;
+}
+
+.actor-name {
+  font-weight: lighter;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actor {
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.container-fourth {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+}
+
+.container-fourth> :nth-child(2) {
+  margin-top: 19px;
+  text-align: center;
+  color: white;
+  font-family: 'Cambria';
+  font-size: 15px;
+}
+
+.container-fourth> :nth-child(3) {
+  margin-top: 19px;
+  text-align: center;
+  color: white;
+  font-family: 'Cambria';
+  font-size: 15px;
+}
+
+.container-fourth> :nth-child(4) {
+  margin-top: 19px;
+  text-align: center;
+  color: white;
+  font-family: 'Cambria';
+  font-size: 15px;
+}
+
+.container-fourth> :nth-child(5) {
+  margin-top: 19px;
+  text-align: center;
+  color: white;
+  font-family: 'Cambria';
+  font-size: 15px;
+}
+
+.actorsname {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.synopsis {
+  width: 50%;
+}
+
+.container-fifth {
+  width: 100%;
+}
+
+.title_synopsis {
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Arial';
+  font-size: 26px;
+}
+
+.text_synopsis {
+  width: 50%;
+}
+
+.container-sixth {
+  width: 100%;
+}
+
+.tt_synopsis {
+  width: 50%;
+  margin-top: 20px;
+  text-align: justify;
+  text-align-last: left;
+  color: white;
+  font-family: 'Arial';
+  font-style: italic;
+  font-size: 15px;
+}
+
+.checkbox {
+  right: 20vw;
+  width: 20px;
+  height: 20px;
+}
+
+.back {
+  right: 27vw;
+  z-index: 9999;
+  top: 100px;
+}
+
+.movie-desc {
+  padding: 20px;
+  height: 100%;
+  overflow: auto;
+}
+
+.actors {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+}
+
+.act {
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: "Arial";
+  font-size: 26px;
+}
+
+.actors> :nth-child(1) {
+  transform: translateY(-14px);
+}
+
+.espace {
+  margin-top: 60px;
+}

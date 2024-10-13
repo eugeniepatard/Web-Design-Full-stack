@@ -1,0 +1,15 @@
+.movie {
+  display: flex;
+  padding: 0 20px 20px 0;
+  position: relative;
+}
+
+.poster-movie {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.poster-movie:hover {
+  transform: scale(1.1);
+}

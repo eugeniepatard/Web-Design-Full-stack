@@ -1,0 +1,106 @@
+.movies {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.Container {
+  height: 100%;
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  padding: 30px 10px 20px 20px;
+}
+
+#container-principal {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+
+.container-secondaire {
+  display: flex;
+  flex-direction: column;
+  width: 77vw;
+  position: relative;
+}
+
+.listmovies {
+  overflow: hidden;
+  overflow-y: hidden;
+  width: 77vw;
+}
+
+.avantbtn,
+.apresbtn {
+  background-color: rgb(75, 82, 97);
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: rgb(100, 100, 100);
+  border: 0;
+}
+
+.avantbtn:hover,
+.apresbtn:hover {
+  color: white;
+}
+
+.bouton-scroll {
+  position: absolute;
+  width: 90%;
+  margin: 0 5%;
+  top: 50%;
+  transform: translateY(-10px);
+}
+
+.avantbtn {
+  padding-left: 0.8rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.apresbtn {
+  padding-right: 0.8rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+.avantbtn:hover {
+  width: 50px;
+  height: 50px;
+}
+
+.avantbtn::before {
+  content: '⟨';
+  color: white;
+  font-weight: bold;
+  padding-right: 8px;
+  vertical-align: 10px;
+}
+
+.apresbtn::before {
+  content: '⟩';
+  color: white;
+  font-weight: bold;
+  padding-left: 8px;
+  vertical-align: 0px;
+}
+
+.apresbtn:hover {
+  width: 50px;
+  height: 50px;
+}
+
+.apresbtn::before:hover {
+  color: rgb(181, 113, 114);
+}
+
+.avantbtn::before:hover {
+  color: rgb(181, 113, 114);
+}

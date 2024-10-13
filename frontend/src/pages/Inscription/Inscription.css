@@ -1,0 +1,55 @@
+.inscription-container {
+  padding: 20px;
+  background-color: rgb(75, 82, 97);
+  box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  position: absolute;
+}
+
+.inscription {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.incription-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.prenom,
+.nom,
+.pwd-sub,
+.email {
+  margin: 10px;
+  background-color: rgb(55, 60, 72);
+  border: 0;
+  height: 30px;
+  width: 100%;
+  border-radius: 8px;
+  color: white;
+  padding: 15px;
+}
+
+.subscribe-btn {
+  width: 50%;
+  border: 0;
+  height: 34px;
+  background-color: rgb(55, 60, 72);
+  color: white;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+#error {
+  margin-bottom: 20px;
+  color: rgb(248, 2, 2);
+  font-size: 1.2rem;
+}

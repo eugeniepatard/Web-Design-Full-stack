@@ -1,0 +1,51 @@
+.categories {
+  width: 17%;
+  height: 560px;
+  background-color: rgb(75, 82, 97);
+  text-align: left;
+  margin: 35px 0;
+  position: sticky;
+  top: 35px;
+  border-radius: 2px;
+}
+
+.listcat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  float: left;
+}
+
+.category-titre {
+  font-size: 0.8em;
+  list-style: none;
+  text-align: center;
+}
+.category {
+  list-style: none;
+  padding: 0;
+  font-size: 0.7em;
+}
+
+.btn-categories {
+  width: 100%;
+  border: 0;
+  height: 34px;
+  border-bottom: 1px solid rgb(146, 146, 146);
+  background-color: rgb(75, 82, 97);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category:first-of-type .btn-categories {
+  border-top: 1px solid rgb(146, 146, 146);
+}
+
+.btn-categories:hover {
+  color: rgb(181, 113, 114);
+}
