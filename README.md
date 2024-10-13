@@ -74,4 +74,4 @@ npm run lint
 
 ### View Wedsite
 
-<img src="views_site\Connected_page.png" alt="Alt text" width="400"/>
+<img src="\views_site\Connected_page.png" alt="Alt text" width="400"/>
