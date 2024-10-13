@@ -1,4 +1,4 @@
-# EI - Web Design
+# Web Design
 
 ## Backend
 
@@ -60,3 +60,7 @@ npm run build
 ```
 npm run lint
 ```
+
+### View Wedsite
+
+<img src="views_site\Connected_page.png" alt="Alt text" width="400"/>
